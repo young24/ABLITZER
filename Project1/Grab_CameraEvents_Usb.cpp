@@ -220,6 +220,7 @@ int main(int argc, char* argv[])
 				const uint8_t *pImageBuffer = (uint8_t *)ptrGrabResult->GetBuffer();
 				cout << "Gray value of first pixel: " << (uint32_t)pImageBuffer[0] << endl << endl;
 
+
 #ifdef PYLON_WIN_BUILD
 					// Display the grabbed image.
 					Pylon::DisplayImage(1, ptrGrabResult);
